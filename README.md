@@ -5,12 +5,11 @@ The kernel is partially implementation of the <a href='https://arxiv.org/pdf/180
 
 ## Theoretical Background
 
-```math
 In statistical data analysis, recently neural network have been piqued researchers intrests. Particularly a regression model like CNN for image restoration doimain. Having pair of inputs $(\hat{x}_i, y_i)$, $\hat{x}_i$ corrupted inputs and $y_i$ clean target, the aim is minimizing the emperical risk:
 
-<div align="center">
-  $argmin_{\theta}\sum_{i}{L(f_{\theta}(\hat{x}_i), y_i)}$
-</div>
+```math
+  argmin_{\theta}\sum_{i}{L(f_{\theta}(\hat{x}_i), y_i)}
+```
 
 where $f_{\theta}$ is a parametric CNN model under the loss function of $L$. In statistical point of view we are dealing with minimizing the expected loss function:
 
