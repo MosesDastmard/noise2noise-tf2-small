@@ -5,7 +5,7 @@ The kernel is partially implementation of the <a href='https://arxiv.org/pdf/180
 
 ## Theoretical Background
 
-In statistical data analysis, recently neural network have been piqued researchers intrests. Particularly a regression model like CNN for image restoration doimain. Having pair of inputs $(\hat{x}_i, y_i)$, $\hat{x}_i$ corrupted inputs and $y_i$ clean target, the aim is minimizing the emperical risk:
+In statistical data analysis, recently neural network have been piqued researchers intrests. Particularly a regression model like CNN for image restoration doimain. Having pair of inputs ![(\hat{x}_i, y_i)$, $\hat{x}_i] corrupted inputs and $y_i$ clean target, the aim is minimizing the emperical risk:
 
 ```math
   argmin_{\theta}\sum_{i}{L(f_{\theta}(\hat{x}_i), y_i)}
